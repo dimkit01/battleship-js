@@ -1,0 +1,112 @@
+* {
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+.wrap {
+	margin: 0 auto;
+	width: 1000px;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 50px;
+}
+
+.wrapper {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.wrapper ul {
+	font-size: 18px;
+}
+
+.move-display {
+	margin: 0 auto;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.battlefield {
+	width: 300px;
+	height: 300px;
+
+}
+
+.cell{
+	width: 28px;
+	height: 28px;
+	border: 1px solid #000;
+	background-color: #ccc0b3;
+	float: left;
+	text-align: center;
+}
+
+.ships-collection {
+	height: 180px;
+	width: 900px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.fourdeck {
+	width: 118px;
+	height: 28px;
+	border: 2px solid #000;
+	background-color: red;
+}
+
+.tripledeck {
+	width: 88px;
+	height: 28px;
+	border: 2px solid #000;
+	background-color: red;
+}
+
+.doubledeck {
+	width: 58px;
+	height: 28px;
+	border: 2px solid #000;
+	background-color: red;
+}
+
+.singledeck {
+	width: 28px;
+	height: 28px;
+	border: 2px solid #000;
+	background-color: red;
+}
+
+.vertical {
+	transform: rotate(90deg);
+}
+
+.button {
+	position: relative;
+	border: 1px solid rgba(128, 127, 127, 0.5);
+	outline: none;
+	display: inline-block;
+	overflow: hidden;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	cursor: pointer;
+	font-size: 16px;
+	padding: 12px 16px;
+	color: #000;
+	background: transparent;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+	margin: 12px;
+}
+
+.hit {
+	background: url('/img/crossline.png') no-repeat;
+	background-size: cover;
+}
+
+.miss {
+	background: url('/img/diagonal.png') no-repeat;
+	background-size: cover;
+}
+  
